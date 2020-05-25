@@ -1,0 +1,15 @@
+.SignUpForm{
+    width: 80%;
+    margin: 20px auto;
+    text-align:center;
+    padding: 10px 0;
+    border: 1px solid #eeeeee;
+    box-shadow: 0 2px 3px #cccccc;
+    box-sizing: border-box;
+}
+
+.SignUpForm input{
+    text-align: left;
+    display: block;
+    font-style: inherit;
+}

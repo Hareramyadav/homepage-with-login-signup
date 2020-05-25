@@ -1,0 +1,21 @@
+.Copyright{
+    background-color: black;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin: 5px 0px;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.Copyright a{
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    margin: 5px 0;
+}
+
+.Copyright a:hover{
+    color: green;
+}

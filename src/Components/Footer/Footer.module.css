@@ -1,0 +1,22 @@
+.Footer{
+    display: flex;
+    color: white;
+    text-align: left;
+}
+
+.Footer address{
+    font-style: normal;
+    flex-flow: column;
+}
+
+
+.Footer a{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:600px){
+    .Footer{
+        flex-flow: column;
+    }
+}

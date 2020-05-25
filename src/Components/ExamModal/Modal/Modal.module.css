@@ -1,0 +1,15 @@
+.Modal{
+    border: 1px solid #eeeeee;
+    box-shadow: 0 2px 3px #cccccc;
+    margin: 0 50px;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    align-items: center;
+}
+
+@media(max-width:600px){
+    .Modal{
+        margin: 20px 0;
+    }
+}

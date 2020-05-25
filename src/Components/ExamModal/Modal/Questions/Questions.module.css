@@ -1,0 +1,10 @@
+.Questions{
+    width: 90%;
+    margin:10px auto;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 3px red;
+    display: flex;
+    flex-flow: column;
+}

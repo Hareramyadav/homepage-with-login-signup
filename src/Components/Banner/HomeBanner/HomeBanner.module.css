@@ -1,0 +1,27 @@
+.HomeBanner{
+    background-image: url(../../../assets/images/homebanner.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    margin: 95px 0 20px;
+    opacity: 0.6;
+}
+
+.HomeBanner h1{
+    padding: 200px 0 0;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 60px;
+}
+
+.HomeBanner Button{
+    margin: 100px 0 150px;
+}
+
+@media(max-width:500px){
+    .HomeBanner{
+        background-size: cover;
+    }
+}

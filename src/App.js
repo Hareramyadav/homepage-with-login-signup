@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
+import OnlineExam from './Containers/OnlineExam/OnlineExam';
+import Toolbar from './Components/Navigation/Toolbar/Toolbar';
+import Layout from './Containers/Layout/Layout';
+import SignInForm from './Containers/Form/SignInForm/SingInForm';
+import SignUpForm from './Containers/Form/SignUpForm/SignUpForm';
+import Medical from './Containers/Courses/Medical';
+import {Route, Switch} from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+class App extends Component{
+  render(){
+    return(
+      <div className='App'>
+        <Toolbar/>
+        <Layout>
+          <Switch>
+            <Route path='/sign-in' exact component={SignInForm}/>
+            <Route path='/register' exact component={SignUpForm}/>
+            <Route path='/login' component={Medical}/>
+            <Route path='/' component={OnlineExam}/>
+          </Switch>
+        </Layout>
+      </div>
+    )
+  }
 }
 
 export default App;
