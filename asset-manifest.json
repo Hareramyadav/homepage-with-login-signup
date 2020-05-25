@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sample-react/static/css/main.c1251f90.chunk.css",
+    "main.js": "/sample-react/static/js/main.24f90f4e.chunk.js",
+    "main.js.map": "/sample-react/static/js/main.24f90f4e.chunk.js.map",
+    "runtime-main.js": "/sample-react/static/js/runtime-main.a43697e8.js",
+    "runtime-main.js.map": "/sample-react/static/js/runtime-main.a43697e8.js.map",
+    "static/js/2.bd9f2082.chunk.js": "/sample-react/static/js/2.bd9f2082.chunk.js",
+    "static/js/2.bd9f2082.chunk.js.map": "/sample-react/static/js/2.bd9f2082.chunk.js.map",
+    "index.html": "/sample-react/index.html",
+    "precache-manifest.e9e5caba9ba78cd47a31b23dfa4a37d1.js": "/sample-react/precache-manifest.e9e5caba9ba78cd47a31b23dfa4a37d1.js",
+    "service-worker.js": "/sample-react/service-worker.js",
+    "static/css/main.c1251f90.chunk.css.map": "/sample-react/static/css/main.c1251f90.chunk.css.map",
+    "static/js/2.bd9f2082.chunk.js.LICENSE.txt": "/sample-react/static/js/2.bd9f2082.chunk.js.LICENSE.txt",
+    "static/media/HomeBanner.module.css": "/sample-react/static/media/homebanner.3dc02686.jpg",
+    "static/media/motion-logo.jpg": "/sample-react/static/media/motion-logo.79474cd2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a43697e8.js",
+    "static/js/2.bd9f2082.chunk.js",
+    "static/css/main.c1251f90.chunk.css",
+    "static/js/main.24f90f4e.chunk.js"
+  ]
+}
